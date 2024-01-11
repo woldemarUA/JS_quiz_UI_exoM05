@@ -40,8 +40,6 @@ function changeStyleBtn(arr) {
 // fonction qui gère l'événement onclick
 
 const btnOnclick = (btn, verifier, answers, length) => {
-  // launchModal(score);
-
   answered++;
 
   changeStyleBtn(answers);
@@ -53,8 +51,6 @@ const btnOnclick = (btn, verifier, answers, length) => {
     changeStyleBtn(faux);
     score++;
   }
-  console.log(score);
-  //  app.appendChild(modalWindow());
 
   if (answered === length) {
     app.appendChild(modalWindow(score, answered));
@@ -103,10 +99,10 @@ function createQuizElement(quiz) {
 
 function init(quiz) {
   quizBody.innerHTML = '';
-  console.log(score);
+
   score = 0;
   answered = 0;
-  console.log(score);
+
   const card = createQuizElement(quiz);
 
   quizBody.appendChild(card);
