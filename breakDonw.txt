@@ -1,0 +1,18 @@
+
+Bloc 1
+async function getArticle
+function init quiz
+function addIdAnswers
+
+Bloc 2
+function createQuizElement
+const btnOnclick
+
+Bloc 3
+function changeStyleBtn
+
+Bloc 4
+function launchModal() 
+
+Bloc 5
+modal...

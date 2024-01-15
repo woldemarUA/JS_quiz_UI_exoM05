@@ -31,7 +31,7 @@ app.appendChild(quizBody);
 // Fonction pour changer les classes une fois la réponse cliquée
 function changeStyleBtn(arr) {
   for (const item of arr) {
-    const { answer, correct, id } = item;
+    const { correct, id } = item;
     // Sélection du bouton par son ID
     const btn = document.getElementById(id);
     // Désactivation de la fonction onclick pour éviter les clics supplémentaires
